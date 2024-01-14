@@ -10,8 +10,8 @@ int knapsack(vector<int>& weights, vector<int>& value, int n, int maxWeight, map
     return mp[{n,maxWeight}];
 }
 int main(){
-    freopen("input_2.in","r",stdin);
-    freopen("output_2.out","w",stdout);
+    freopen("input2.in","r",stdin);
+    freopen("output2.out","w",stdout);
     int n;
     cin >> n;
     
