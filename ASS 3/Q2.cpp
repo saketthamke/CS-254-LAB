@@ -6,9 +6,8 @@ using namespace std;
 //Space Complexity - O(1);
 
 int solve(int a[],int start, int end){
+    if(start==end ) return a[start];
     int mid=start + (end-start)/2;
-    if(start==mid ) return a[mid];
-    if(end==mid+1) return a[mid+1];
     int maxileft=INT_MIN;
     int maxiright=INT_MIN;
     int sum=0;
